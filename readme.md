@@ -2,13 +2,14 @@
 
 Link do repositório com instruções e referências: <a href="https://github.com/cassianobrexbit/dio-live-coding-serverless">Github do Cassiano Peres</a><br>
 
-Endpoints:<br>
+<h3>Endpoints:</h3>
   GET - https://y5fj0dnwld.execute-api.us-east-1.amazonaws.com/dev/<br>
   POST - https://y5fj0dnwld.execute-api.us-east-1.amazonaws.com/dev/item<br>
   GET - https://y5fj0dnwld.execute-api.us-east-1.amazonaws.com/dev/items<br>
   GET - https://y5fj0dnwld.execute-api.us-east-1.amazonaws.com/dev/items/{id}<br>
-  PUT - https://y5fj0dnwld.execute-api.us-east-1.amazonaws.com/dev/items/{id}<br>
-Functions:<br>
+  PUT - https://y5fj0dnwld.execute-api.us-east-1.amazonaws.com/dev/items/{id}<br><br>
+
+<h3>Functions:</h3>
   hello: aws-servless-framework-dev-hello (15 MB)<br>
   insertItem: aws-servless-framework-dev-insertItem (15 MB)<br>
   fetchItems: aws-servless-framework-dev-fetchItems (15 MB)<br>
