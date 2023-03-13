@@ -217,7 +217,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-servless-framework/dev/1678669579050-2023-03-13T01:06:19.050Z/aws-servless-framework.zip"
+                "S3Key": "serverless/aws-servless-framework/dev/1678716969816-2023-03-13T14:16:09.816Z/aws-servless-framework.zip"
               },
               "Handler": "src/hello.handler",
               "Runtime": "nodejs14.x",
@@ -242,7 +242,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-servless-framework/dev/1678669579050-2023-03-13T01:06:19.050Z/aws-servless-framework.zip"
+                "S3Key": "serverless/aws-servless-framework/dev/1678716969816-2023-03-13T14:16:09.816Z/aws-servless-framework.zip"
               },
               "Handler": "src/insertItem.handler",
               "Runtime": "nodejs14.x",
@@ -267,7 +267,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-servless-framework/dev/1678669579050-2023-03-13T01:06:19.050Z/aws-servless-framework.zip"
+                "S3Key": "serverless/aws-servless-framework/dev/1678716969816-2023-03-13T14:16:09.816Z/aws-servless-framework.zip"
               },
               "Handler": "src/fetchItems.handler",
               "Runtime": "nodejs14.x",
@@ -292,7 +292,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-servless-framework/dev/1678669579050-2023-03-13T01:06:19.050Z/aws-servless-framework.zip"
+                "S3Key": "serverless/aws-servless-framework/dev/1678716969816-2023-03-13T14:16:09.816Z/aws-servless-framework.zip"
               },
               "Handler": "src/fetchItem.handler",
               "Runtime": "nodejs14.x",
@@ -317,7 +317,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/aws-servless-framework/dev/1678669579050-2023-03-13T01:06:19.050Z/aws-servless-framework.zip"
+                "S3Key": "serverless/aws-servless-framework/dev/1678716969816-2023-03-13T14:16:09.816Z/aws-servless-framework.zip"
               },
               "Handler": "src/updateItem.handler",
               "Runtime": "nodejs14.x",
@@ -335,54 +335,54 @@
               "UpdateItemLogGroup"
             ]
           },
-          "HelloLambdaVersionvSiFeADVYR1dNKA5iiQRf4ApD8ZjxP4l1BkHuWaJGs": {
+          "HelloLambdaVersionCZiD0CQssuiFT7iTRxyKi6UVmwCru8zhCrRuCEWY": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "HelloLambdaFunction"
               },
-              "CodeSha256": "aJHsXIRj6lSdOBL7/Z03x2I0rzNQNt1Dpni2LSIiJWw="
+              "CodeSha256": "5ygNEzHRolCqnP7QFsl7QS3mlsxwk6bWwmUNYXSJIwI="
             }
           },
-          "InsertItemLambdaVersionIWDDMVuWi3STL4D0nnPbfx3G66hRKHL3tokvRkSKWI": {
+          "InsertItemLambdaVersionRp5TrXfdMhXLgvMYvLD4xy9w5i45vtCzCVst2Kd2HI": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "InsertItemLambdaFunction"
               },
-              "CodeSha256": "aJHsXIRj6lSdOBL7/Z03x2I0rzNQNt1Dpni2LSIiJWw="
+              "CodeSha256": "5ygNEzHRolCqnP7QFsl7QS3mlsxwk6bWwmUNYXSJIwI="
             }
           },
-          "FetchItemsLambdaVersion0KchLEacc6WNRDlm1W3mwQDlKyccutkZkeCqTkNTmuc": {
+          "FetchItemsLambdaVersionGZflPvNG1StsiC33ZF5bv2rywSvUsCCPqpGTVdTf0": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "FetchItemsLambdaFunction"
               },
-              "CodeSha256": "aJHsXIRj6lSdOBL7/Z03x2I0rzNQNt1Dpni2LSIiJWw="
+              "CodeSha256": "5ygNEzHRolCqnP7QFsl7QS3mlsxwk6bWwmUNYXSJIwI="
             }
           },
-          "FetchItemLambdaVersion8JqcwkVDBTTSPlsKWe5PFgnBWnQqdxsr0GKhWsao": {
+          "FetchItemLambdaVersiondLjQSOGXQjX5x4y9g8RiG5ESt83Wza5jnKnNAUJj4m0": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "FetchItemLambdaFunction"
               },
-              "CodeSha256": "aJHsXIRj6lSdOBL7/Z03x2I0rzNQNt1Dpni2LSIiJWw="
+              "CodeSha256": "5ygNEzHRolCqnP7QFsl7QS3mlsxwk6bWwmUNYXSJIwI="
             }
           },
-          "UpdateItemLambdaVersion1iGx8ZWVMQITJAymzUrW4eJkKKoj2ZbTnD7DDqsUsjI": {
+          "UpdateItemLambdaVersionyFqccVS9giazbMkYI5Ahp3H4KGq53lp85GJnb6vJVM": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "UpdateItemLambdaFunction"
               },
-              "CodeSha256": "aJHsXIRj6lSdOBL7/Z03x2I0rzNQNt1Dpni2LSIiJWw="
+              "CodeSha256": "5ygNEzHRolCqnP7QFsl7QS3mlsxwk6bWwmUNYXSJIwI="
             }
           },
           "ApiGatewayRestApi": {
@@ -672,7 +672,7 @@
               "UpdateItemLambdaPermissionApiGateway"
             ]
           },
-          "ApiGatewayDeployment1678669567589": {
+          "ApiGatewayDeployment1678716856279": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -905,7 +905,7 @@
           "HelloLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "HelloLambdaVersionvSiFeADVYR1dNKA5iiQRf4ApD8ZjxP4l1BkHuWaJGs"
+              "Ref": "HelloLambdaVersionCZiD0CQssuiFT7iTRxyKi6UVmwCru8zhCrRuCEWY"
             },
             "Export": {
               "Name": "sls-aws-servless-framework-dev-HelloLambdaFunctionQualifiedArn"
@@ -914,7 +914,7 @@
           "InsertItemLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "InsertItemLambdaVersionIWDDMVuWi3STL4D0nnPbfx3G66hRKHL3tokvRkSKWI"
+              "Ref": "InsertItemLambdaVersionRp5TrXfdMhXLgvMYvLD4xy9w5i45vtCzCVst2Kd2HI"
             },
             "Export": {
               "Name": "sls-aws-servless-framework-dev-InsertItemLambdaFunctionQualifiedArn"
@@ -923,7 +923,7 @@
           "FetchItemsLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "FetchItemsLambdaVersion0KchLEacc6WNRDlm1W3mwQDlKyccutkZkeCqTkNTmuc"
+              "Ref": "FetchItemsLambdaVersionGZflPvNG1StsiC33ZF5bv2rywSvUsCCPqpGTVdTf0"
             },
             "Export": {
               "Name": "sls-aws-servless-framework-dev-FetchItemsLambdaFunctionQualifiedArn"
@@ -932,7 +932,7 @@
           "FetchItemLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "FetchItemLambdaVersion8JqcwkVDBTTSPlsKWe5PFgnBWnQqdxsr0GKhWsao"
+              "Ref": "FetchItemLambdaVersiondLjQSOGXQjX5x4y9g8RiG5ESt83Wza5jnKnNAUJj4m0"
             },
             "Export": {
               "Name": "sls-aws-servless-framework-dev-FetchItemLambdaFunctionQualifiedArn"
@@ -941,7 +941,7 @@
           "UpdateItemLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "UpdateItemLambdaVersion1iGx8ZWVMQITJAymzUrW4eJkKKoj2ZbTnD7DDqsUsjI"
+              "Ref": "UpdateItemLambdaVersionyFqccVS9giazbMkYI5Ahp3H4KGq53lp85GJnb6vJVM"
             },
             "Export": {
               "Name": "sls-aws-servless-framework-dev-UpdateItemLambdaFunctionQualifiedArn"
@@ -1078,7 +1078,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "HelloLambdaVersionvSiFeADVYR1dNKA5iiQRf4ApD8ZjxP4l1BkHuWaJGs"
+        "versionLogicalId": "HelloLambdaVersionCZiD0CQssuiFT7iTRxyKi6UVmwCru8zhCrRuCEWY"
       },
       "insertItem": {
         "handler": "src/insertItem.handler",
@@ -1097,7 +1097,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "InsertItemLambdaVersionIWDDMVuWi3STL4D0nnPbfx3G66hRKHL3tokvRkSKWI"
+        "versionLogicalId": "InsertItemLambdaVersionRp5TrXfdMhXLgvMYvLD4xy9w5i45vtCzCVst2Kd2HI"
       },
       "fetchItems": {
         "handler": "src/fetchItems.handler",
@@ -1116,7 +1116,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "FetchItemsLambdaVersion0KchLEacc6WNRDlm1W3mwQDlKyccutkZkeCqTkNTmuc"
+        "versionLogicalId": "FetchItemsLambdaVersionGZflPvNG1StsiC33ZF5bv2rywSvUsCCPqpGTVdTf0"
       },
       "fetchItem": {
         "handler": "src/fetchItem.handler",
@@ -1135,7 +1135,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "FetchItemLambdaVersion8JqcwkVDBTTSPlsKWe5PFgnBWnQqdxsr0GKhWsao"
+        "versionLogicalId": "FetchItemLambdaVersiondLjQSOGXQjX5x4y9g8RiG5ESt83Wza5jnKnNAUJj4m0"
       },
       "updateItem": {
         "handler": "src/updateItem.handler",
@@ -1154,7 +1154,7 @@
         "timeout": 6,
         "runtime": "nodejs14.x",
         "vpc": {},
-        "versionLogicalId": "UpdateItemLambdaVersion1iGx8ZWVMQITJAymzUrW4eJkKKoj2ZbTnD7DDqsUsjI"
+        "versionLogicalId": "UpdateItemLambdaVersionyFqccVS9giazbMkYI5Ahp3H4KGq53lp85GJnb6vJVM"
       }
     },
     "resources": {
@@ -1200,7 +1200,7 @@
     "artifact": "C:\\Users\\isabe\\Documents\\GitHub\\AWS-Servless-Framework\\.serverless\\aws-servless-framework.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/aws-servless-framework/dev/1678669579050-2023-03-13T01:06:19.050Z",
+    "artifactDirectoryName": "serverless/aws-servless-framework/dev/1678716969816-2023-03-13T14:16:09.816Z",
     "artifact": "aws-servless-framework.zip"
   }
 }
